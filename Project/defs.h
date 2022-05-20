@@ -3,7 +3,7 @@
 
 #include <fstream>
 
-#define	LOGGING					false
+//#define	LOGGING					false
 
 #if (LOGGING)
 #include <fstream>
