@@ -4,7 +4,7 @@ project(TopologyAPI VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(TopologyAPI main.cpp)
+add_executable(TopologyAPI App.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
