@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_topology_a_p_i" kind="class" language="C++" prot="public">
+    <compoundname>TopologyAPI</compoundname>
+    <includes refid="_topology_a_p_i_8h" local="no">TopologyAPI.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_topology_a_p_i_1a5406a42671ce8f4cc79450fa48a5227c" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TopologyAPI::connectionID</definition>
+        <argsstring></argsstring>
+        <name>connectionID</name>
+        <qualifiedname>TopologyAPI::connectionID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="40" column="13" bodyfile="TopologyAPI.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_topology_a_p_i_1a57570806aa592375a22d10827269948b" prot="private" static="no" mutable="no">
+        <type><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref></type>
+        <definition>QUERY TopologyAPI::currentQuery</definition>
+        <argsstring></argsstring>
+        <name>currentQuery</name>
+        <qualifiedname>TopologyAPI::currentQuery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="41" column="7" bodyfile="TopologyAPI.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_topology_a_p_i_1ab293c2d23b32f2dc14d1e9fa28cb1600" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_topology" kindref="compound">Topology</ref> * &gt;</type>
+        <definition>std::vector&lt;Topology*&gt; TopologyAPI::topologies</definition>
+        <argsstring></argsstring>
+        <name>topologies</name>
+        <qualifiedname>TopologyAPI::topologies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="43" column="13" bodyfile="TopologyAPI.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_topology_a_p_i_1a206fb4fdd878002cb470806130a6f358" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TopologyAPI::chech_path</definition>
+        <argsstring>(std::string filePath)</argsstring>
+        <name>chech_path</name>
+        <qualifiedname>TopologyAPI::chech_path</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="45" column="6" bodyfile="TopologyAPI.cpp" bodystart="118" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_topology_a_p_i_1a6f1f6bdadf6ded2edace3c5226f1bf72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TopologyAPI::TopologyAPI</definition>
+        <argsstring>(void)</argsstring>
+        <name>TopologyAPI</name>
+        <qualifiedname>TopologyAPI::TopologyAPI</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="52" column="1" bodyfile="TopologyAPI.cpp" bodystart="8" bodyend="16"/>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a4fc963e213bba362778f5c175eb4d5ff">HELP</references>
+        <references refid="class_topology_a_p_i_1ae225dfa227bf47825f9799c6338023d3" compoundref="_topology_a_p_i_8cpp" startline="53" endline="63">randomString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1ace1641fa724f29e214e31435daf292e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TopologyAPI::TopologyAPI</definition>
+        <argsstring>(QUERY currentQuery)</argsstring>
+        <name>TopologyAPI</name>
+        <qualifiedname>TopologyAPI::TopologyAPI</qualifiedname>
+        <param>
+          <type><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref></type>
+          <declname>currentQuery</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="53" column="1" bodyfile="TopologyAPI.cpp" bodystart="18" bodyend="26"/>
+        <references refid="class_topology_a_p_i_1ae225dfa227bf47825f9799c6338023d3" compoundref="_topology_a_p_i_8cpp" startline="53" endline="63">randomString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a74aeb2508d9a24828beab7a82feb8f9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TopologyAPI::TopologyAPI</definition>
+        <argsstring>(std::string filePath)</argsstring>
+        <name>TopologyAPI</name>
+        <qualifiedname>TopologyAPI::TopologyAPI</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="54" column="1" bodyfile="TopologyAPI.cpp" bodystart="28" bodyend="36"/>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a4fc963e213bba362778f5c175eb4d5ff">HELP</references>
+        <references refid="class_topology_a_p_i_1ae225dfa227bf47825f9799c6338023d3" compoundref="_topology_a_p_i_8cpp" startline="53" endline="63">randomString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a7957fa5c132fc3c2275902ac1290ab2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TopologyAPI::TopologyAPI</definition>
+        <argsstring>(QUERY currentQuery, std::string filePath)</argsstring>
+        <name>TopologyAPI</name>
+        <qualifiedname>TopologyAPI::TopologyAPI</qualifiedname>
+        <param>
+          <type><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref></type>
+          <declname>currentQuery</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="55" column="1" bodyfile="TopologyAPI.cpp" bodystart="38" bodyend="46"/>
+        <references refid="class_topology_a_p_i_1ae225dfa227bf47825f9799c6338023d3" compoundref="_topology_a_p_i_8cpp" startline="53" endline="63">randomString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1ae225dfa227bf47825f9799c6338023d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string TopologyAPI::randomString</definition>
+        <argsstring>(void)</argsstring>
+        <name>randomString</name>
+        <qualifiedname>TopologyAPI::randomString</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="57" column="13" bodyfile="TopologyAPI.cpp" bodystart="53" bodyend="63"/>
+        <referencedby refid="class_topology_a_p_i_1a6f1f6bdadf6ded2edace3c5226f1bf72" compoundref="_topology_a_p_i_8cpp" startline="8" endline="16">TopologyAPI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a028bf8ca5ae4ae120bec290fdc9aa03b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string TopologyAPI::getConnectionID</definition>
+        <argsstring>(void)</argsstring>
+        <name>getConnectionID</name>
+        <qualifiedname>TopologyAPI::getConnectionID</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="59" column="13" bodyfile="TopologyAPI.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a343df5494e6fbe1fe1f9b778eb71ebb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref></type>
+        <definition>QUERY TopologyAPI::getCurrentQuery</definition>
+        <argsstring>(void)</argsstring>
+        <name>getCurrentQuery</name>
+        <qualifiedname>TopologyAPI::getCurrentQuery</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="60" column="7" bodyfile="TopologyAPI.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a634b301588095da8733de1e9b14a7f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TopologyAPI::getNumberOfTopologies</definition>
+        <argsstring>(void)</argsstring>
+        <name>getNumberOfTopologies</name>
+        <qualifiedname>TopologyAPI::getNumberOfTopologies</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="61" column="5" bodyfile="TopologyAPI.cpp" bodystart="462" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1aa944f1e4fc11a860ad8c42140f5fe9c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_topology" kindref="compound">Topology</ref> * &gt; *</type>
+        <definition>std::vector&lt; Topology * &gt; * TopologyAPI::getTopologies</definition>
+        <argsstring>(void)</argsstring>
+        <name>getTopologies</name>
+        <qualifiedname>TopologyAPI::getTopologies</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="62" column="13" bodyfile="TopologyAPI.cpp" bodystart="75" bodyend="78"/>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" compoundref="_topology_a_p_i_unit_test_8cpp" startline="324" endline="551">TopologyAPIUnitTest::TestQuery3</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" compoundref="_topology_a_p_i_unit_test_8cpp" startline="553" endline="758">TopologyAPIUnitTest::TestQuery4</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" compoundref="_topology_a_p_i_unit_test_8cpp" startline="760" endline="958">TopologyAPIUnitTest::TestQuery5</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" compoundref="_topology_a_p_i_unit_test_8cpp" startline="960" endline="1158">TopologyAPIUnitTest::TestQuery6</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPI::addTopology</definition>
+        <argsstring>(Topology *topology)</argsstring>
+        <name>addTopology</name>
+        <qualifiedname>TopologyAPI::addTopology</qualifiedname>
+        <param>
+          <type><ref refid="class_topology" kindref="compound">Topology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="64" column="6" bodyfile="TopologyAPI.cpp" bodystart="48" bodyend="51"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">createTopology</referencedby>
+        <referencedby refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" compoundref="_topology_a_p_i_8cpp" startline="155" endline="217">readJson</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a6883ea6a1c08c41632868cda93264871" compoundref="_topology_a_p_i_unit_test_8cpp" startline="127" endline="322">TopologyAPIUnitTest::TestQuery2</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" compoundref="_topology_a_p_i_unit_test_8cpp" startline="324" endline="551">TopologyAPIUnitTest::TestQuery3</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" compoundref="_topology_a_p_i_unit_test_8cpp" startline="553" endline="758">TopologyAPIUnitTest::TestQuery4</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" compoundref="_topology_a_p_i_unit_test_8cpp" startline="760" endline="958">TopologyAPIUnitTest::TestQuery5</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" compoundref="_topology_a_p_i_unit_test_8cpp" startline="960" endline="1158">TopologyAPIUnitTest::TestQuery6</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a557918daab492db33093a7095880d81b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPI::setCurrentQuery</definition>
+        <argsstring>(QUERY currentQuery)</argsstring>
+        <name>setCurrentQuery</name>
+        <qualifiedname>TopologyAPI::setCurrentQuery</qualifiedname>
+        <param>
+          <type><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref></type>
+          <declname>currentQuery</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="65" column="6" bodyfile="TopologyAPI.cpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPI::createTopology</definition>
+        <argsstring>(void)</argsstring>
+        <name>createTopology</name>
+        <qualifiedname>TopologyAPI::createTopology</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="66" column="6" bodyfile="TopologyAPI.cpp" bodystart="467" bodyend="591"/>
+        <references refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" compoundref="_topology_8cpp" startline="36" endline="41">Topology::addComponent</references>
+        <references refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" compoundref="_topology_a_p_i_8cpp" startline="48" endline="51">addTopology</references>
+        <references refid="class_component_1a27ba2d3b49e398cacd7a06ca572de484" compoundref="_component_8cpp" startline="47" endline="50">Component::get_type</references>
+        <references refid="class_device_1a58af9cb965fc686074efb53c4f259685" compoundref="_device_8cpp" startline="29" endline="32">Device::set_defaultValue</references>
+        <references refid="class_component_1a47ddd067e46adf515094ce11659d7369" compoundref="_component_8cpp" startline="34" endline="37">Component::set_device</references>
+        <references refid="class_device_1ac3794fe95c05ca107e0d2426ab7ffae2" compoundref="_device_8cpp" startline="39" endline="42">Device::set_maxValue</references>
+        <references refid="class_device_1ae2bf3db6bc0ca5ff0b85def73e6b3dfd" compoundref="_device_8cpp" startline="34" endline="37">Device::set_minValue</references>
+        <references refid="class_component_1a2f20b28e8cc2d7b4c2e35fbe9ab3aa8b" compoundref="_component_8cpp" startline="39" endline="45">Component::set_netlist</references>
+        <references refid="class_component_1a87c5699f3e78b8bdfc417cf21b531136" compoundref="_component_8cpp" startline="24" endline="27">Component::set_type</references>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPI::executeQuery</definition>
+        <argsstring>(TopologyAPI_Param *parameter)</argsstring>
+        <name>executeQuery</name>
+        <qualifiedname>TopologyAPI::executeQuery</qualifiedname>
+        <param>
+          <type><ref refid="struct_topology_a_p_i___param" kindref="compound">TopologyAPI_Param</ref> *</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="68" column="6" bodyfile="TopologyAPI.cpp" bodystart="80" bodyend="111"/>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a294ce20cdefa29be3be0735cb62e715d">CREATE</references>
+        <references refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">createTopology</references>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a32f68a60cef40faedbc6af20298c1a1e">DELETE</references>
+        <references refid="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" compoundref="_topology_a_p_i_8cpp" startline="331" endline="354">deleteTopology</references>
+        <references refid="struct_topology_a_p_i___param_1a88613f762c804a34a9f427bbcd6a4e37" compoundref="_topology_a_p_i_8h" startline="31">TopologyAPI_Param::filePath</references>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a4fc963e213bba362778f5c175eb4d5ff">HELP</references>
+        <references refid="class_topology_a_p_i_1ac7081293a4067e209f7a8b14193a59be" compoundref="_topology_a_p_i_8cpp" startline="126" endline="153">help</references>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59ad2067c87931b1be2526ccb816575d19b">IS_CONNECTED</references>
+        <references refid="struct_topology_a_p_i___param_1a8180ad0470bf960aba4836df2eb1dc9a" compoundref="_topology_a_p_i_8h" startline="33">TopologyAPI_Param::node</references>
+        <references refid="class_topology_a_p_i_1ae81b9033ff10bd079cf03bedcf5bf5ec" compoundref="_topology_a_p_i_8cpp" startline="356" endline="400">queryDevices</references>
+        <references refid="class_topology_a_p_i_1a1ac882ee0b95a3335fd387aa2cbf21f2" compoundref="_topology_a_p_i_8cpp" startline="402" endline="460">queryDevicesWithNetlistNode</references>
+        <references refid="class_topology_a_p_i_1a162e7d8dd704d8d24c31d0a2d909001f" compoundref="_topology_a_p_i_8cpp" startline="303" endline="329">queryTopologies</references>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a3466fab4975481651940ed328aa990e4">READ</references>
+        <references refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" compoundref="_topology_a_p_i_8cpp" startline="155" endline="217">readJson</references>
+        <references refid="struct_topology_a_p_i___param_1a840991af5ebb7c9bc05d51c341873555" compoundref="_topology_a_p_i_8h" startline="32">TopologyAPI_Param::topologyID</references>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a6eee0f5646c1da270d78508b736ae90b">WHICH_DEVICES</references>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a646cee2a1c60ed7cf67c1868ce51aeda">WHICH_TOPOLOGIES</references>
+        <references refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59ad4b9e47f65b6e79b010582f15785867e">WRITE</references>
+        <references refid="class_topology_a_p_i_1a17bf994f20dbbecc4245f1576bada45a" compoundref="_topology_a_p_i_8cpp" startline="219" endline="301">writeJSON</references>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1ac7081293a4067e209f7a8b14193a59be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPI::help</definition>
+        <argsstring>(void)</argsstring>
+        <name>help</name>
+        <qualifiedname>TopologyAPI::help</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="70" column="6" bodyfile="TopologyAPI.cpp" bodystart="126" bodyend="153"/>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TopologyAPI::readJson</definition>
+        <argsstring>(std::string filePath)</argsstring>
+        <name>readJson</name>
+        <qualifiedname>TopologyAPI::readJson</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="72" column="6" bodyfile="TopologyAPI.cpp" bodystart="155" bodyend="217"/>
+        <references refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" compoundref="_topology_8cpp" startline="36" endline="41">Topology::addComponent</references>
+        <references refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" compoundref="_topology_a_p_i_8cpp" startline="48" endline="51">addTopology</references>
+        <references refid="class_component_1a47ddd067e46adf515094ce11659d7369" compoundref="_component_8cpp" startline="34" endline="37">Component::set_device</references>
+        <references refid="class_component_1a2f20b28e8cc2d7b4c2e35fbe9ab3aa8b" compoundref="_component_8cpp" startline="39" endline="45">Component::set_netlist</references>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a20263e59c3099a1a5f248202d657bb82" compoundref="_topology_a_p_i_unit_test_8cpp" startline="13" endline="125">TopologyAPIUnitTest::TestQuery1</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" compoundref="_topology_a_p_i_unit_test_8cpp" startline="324" endline="551">TopologyAPIUnitTest::TestQuery3</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a17bf994f20dbbecc4245f1576bada45a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TopologyAPI::writeJSON</definition>
+        <argsstring>(std::string filePath, std::string topologyID)</argsstring>
+        <name>writeJSON</name>
+        <qualifiedname>TopologyAPI::writeJSON</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>topologyID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="73" column="6" bodyfile="TopologyAPI.cpp" bodystart="219" bodyend="301"/>
+        <references refid="class_topology_1ae7581acf93bd20402f37f252a07f7ba5" compoundref="_topology_8cpp" startline="31" endline="34">Topology::getComponents</references>
+        <references refid="class_topology_1af5fd970c432740af72df3fa843c03cb3" compoundref="_topology_8cpp" startline="26" endline="29">Topology::getID</references>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a6883ea6a1c08c41632868cda93264871" compoundref="_topology_a_p_i_unit_test_8cpp" startline="127" endline="322">TopologyAPIUnitTest::TestQuery2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a162e7d8dd704d8d24c31d0a2d909001f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_topology" kindref="compound">Topology</ref> * &gt; *</type>
+        <definition>std::vector&lt; Topology * &gt; * TopologyAPI::queryTopologies</definition>
+        <argsstring>(void)</argsstring>
+        <name>queryTopologies</name>
+        <qualifiedname>TopologyAPI::queryTopologies</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="74" column="13" bodyfile="TopologyAPI.cpp" bodystart="303" bodyend="329"/>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" compoundref="_topology_a_p_i_unit_test_8cpp" startline="324" endline="551">TopologyAPIUnitTest::TestQuery3</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" compoundref="_topology_a_p_i_unit_test_8cpp" startline="553" endline="758">TopologyAPIUnitTest::TestQuery4</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TopologyAPI::deleteTopology</definition>
+        <argsstring>(std::string topologyID)</argsstring>
+        <name>deleteTopology</name>
+        <qualifiedname>TopologyAPI::deleteTopology</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>topologyID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="75" column="6" bodyfile="TopologyAPI.cpp" bodystart="331" bodyend="354"/>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" compoundref="_topology_a_p_i_unit_test_8cpp" startline="324" endline="551">TopologyAPIUnitTest::TestQuery3</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" compoundref="_topology_a_p_i_unit_test_8cpp" startline="553" endline="758">TopologyAPIUnitTest::TestQuery4</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" compoundref="_topology_a_p_i_unit_test_8cpp" startline="760" endline="958">TopologyAPIUnitTest::TestQuery5</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" compoundref="_topology_a_p_i_unit_test_8cpp" startline="960" endline="1158">TopologyAPIUnitTest::TestQuery6</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1ae81b9033ff10bd079cf03bedcf5bf5ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_device" kindref="compound">Device</ref> * &gt; *</type>
+        <definition>std::vector&lt; Device * &gt; * TopologyAPI::queryDevices</definition>
+        <argsstring>(std::string topologyID)</argsstring>
+        <name>queryDevices</name>
+        <qualifiedname>TopologyAPI::queryDevices</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>topologyID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="76" column="13" bodyfile="TopologyAPI.cpp" bodystart="356" bodyend="400"/>
+        <references refid="class_topology_1ae7581acf93bd20402f37f252a07f7ba5" compoundref="_topology_8cpp" startline="31" endline="34">Topology::getComponents</references>
+        <references refid="class_topology_1a04ceaac63412fca96e8ae306e7dd0476" compoundref="_topology_8cpp" startline="43" endline="50">Topology::print</references>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" compoundref="_topology_a_p_i_unit_test_8cpp" startline="760" endline="958">TopologyAPIUnitTest::TestQuery5</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a1ac882ee0b95a3335fd387aa2cbf21f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_device" kindref="compound">Device</ref> * &gt; *</type>
+        <definition>std::vector&lt; Device * &gt; * TopologyAPI::queryDevicesWithNetlistNode</definition>
+        <argsstring>(std::string topologyID, std::string node)</argsstring>
+        <name>queryDevicesWithNetlistNode</name>
+        <qualifiedname>TopologyAPI::queryDevicesWithNetlistNode</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>topologyID</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="77" column="13" bodyfile="TopologyAPI.cpp" bodystart="402" bodyend="460"/>
+        <references refid="class_topology_1ae7581acf93bd20402f37f252a07f7ba5" compoundref="_topology_8cpp" startline="31" endline="34">Topology::getComponents</references>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">executeQuery</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" compoundref="_topology_a_p_i_unit_test_8cpp" startline="960" endline="1158">TopologyAPIUnitTest::TestQuery6</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_1a452f3556536f19d8bac7c13cfb9f94ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TopologyAPI::~TopologyAPI</definition>
+        <argsstring>(void)</argsstring>
+        <name>~TopologyAPI</name>
+        <qualifiedname>TopologyAPI::~TopologyAPI</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="83" column="1" bodyfile="TopologyAPI.cpp" bodystart="604" bodyend="611"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TopologyAPI</label>
+        <link refid="class_topology_a_p_i"/>
+      </node>
+    </collaborationgraph>
+    <location file="TopologyAPI.h" line="37" column="1" bodyfile="TopologyAPI.h" bodystart="38" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>addTopology</name></member>
+      <member refid="class_topology_a_p_i_1a206fb4fdd878002cb470806130a6f358" prot="private" virt="non-virtual"><scope>TopologyAPI</scope><name>chech_path</name></member>
+      <member refid="class_topology_a_p_i_1a5406a42671ce8f4cc79450fa48a5227c" prot="private" virt="non-virtual"><scope>TopologyAPI</scope><name>connectionID</name></member>
+      <member refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>createTopology</name></member>
+      <member refid="class_topology_a_p_i_1a57570806aa592375a22d10827269948b" prot="private" virt="non-virtual"><scope>TopologyAPI</scope><name>currentQuery</name></member>
+      <member refid="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>deleteTopology</name></member>
+      <member refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>executeQuery</name></member>
+      <member refid="class_topology_a_p_i_1a028bf8ca5ae4ae120bec290fdc9aa03b" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>getConnectionID</name></member>
+      <member refid="class_topology_a_p_i_1a343df5494e6fbe1fe1f9b778eb71ebb1" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>getCurrentQuery</name></member>
+      <member refid="class_topology_a_p_i_1a634b301588095da8733de1e9b14a7f81" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>getNumberOfTopologies</name></member>
+      <member refid="class_topology_a_p_i_1aa944f1e4fc11a860ad8c42140f5fe9c1" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>getTopologies</name></member>
+      <member refid="class_topology_a_p_i_1ac7081293a4067e209f7a8b14193a59be" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>help</name></member>
+      <member refid="class_topology_a_p_i_1ae81b9033ff10bd079cf03bedcf5bf5ec" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>queryDevices</name></member>
+      <member refid="class_topology_a_p_i_1a1ac882ee0b95a3335fd387aa2cbf21f2" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>queryDevicesWithNetlistNode</name></member>
+      <member refid="class_topology_a_p_i_1a162e7d8dd704d8d24c31d0a2d909001f" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>queryTopologies</name></member>
+      <member refid="class_topology_a_p_i_1ae225dfa227bf47825f9799c6338023d3" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>randomString</name></member>
+      <member refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>readJson</name></member>
+      <member refid="class_topology_a_p_i_1a557918daab492db33093a7095880d81b" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>setCurrentQuery</name></member>
+      <member refid="class_topology_a_p_i_1ab293c2d23b32f2dc14d1e9fa28cb1600" prot="private" virt="non-virtual"><scope>TopologyAPI</scope><name>topologies</name></member>
+      <member refid="class_topology_a_p_i_1a6f1f6bdadf6ded2edace3c5226f1bf72" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>TopologyAPI</name></member>
+      <member refid="class_topology_a_p_i_1ace1641fa724f29e214e31435daf292e6" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>TopologyAPI</name></member>
+      <member refid="class_topology_a_p_i_1a74aeb2508d9a24828beab7a82feb8f9e" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>TopologyAPI</name></member>
+      <member refid="class_topology_a_p_i_1a7957fa5c132fc3c2275902ac1290ab2f" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>TopologyAPI</name></member>
+      <member refid="class_topology_a_p_i_1a17bf994f20dbbecc4245f1576bada45a" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>writeJSON</name></member>
+      <member refid="class_topology_a_p_i_1a452f3556536f19d8bac7c13cfb9f94ba" prot="public" virt="non-virtual"><scope>TopologyAPI</scope><name>~TopologyAPI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

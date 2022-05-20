@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_device_8h" kind="file" language="C++">
+    <compoundname>Device.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includedby refid="_component_8h" local="yes">Component.h</includedby>
+    <includedby refid="_device_8cpp" local="yes">Device.cpp</includedby>
+    <includedby refid="_n_m_o_s_8h" local="yes">NMOS.h</includedby>
+    <includedby refid="_resistor_8h" local="yes">Resistor.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Device.h</label>
+        <link refid="_device_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>App.cpp</label>
+        <link refid="_app_8cpp"/>
+      </node>
+      <node id="7">
+        <label>App.h</label>
+        <link refid="_app_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Component.cpp</label>
+        <link refid="_component_8cpp"/>
+      </node>
+      <node id="2">
+        <label>Component.h</label>
+        <link refid="_component_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Device.cpp</label>
+        <link refid="_device_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Device.h</label>
+        <link refid="_device_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>NMOS.cpp</label>
+        <link refid="_n_m_o_s_8cpp"/>
+      </node>
+      <node id="13">
+        <label>NMOS.h</label>
+        <link refid="_n_m_o_s_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Resistor.cpp</label>
+        <link refid="_resistor_8cpp"/>
+      </node>
+      <node id="15">
+        <label>Resistor.h</label>
+        <link refid="_resistor_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Topology.cpp</label>
+        <link refid="_topology_8cpp"/>
+      </node>
+      <node id="4">
+        <label>Topology.h</label>
+        <link refid="_topology_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>TopologyAPI.cpp</label>
+        <link refid="_topology_a_p_i_8cpp"/>
+      </node>
+      <node id="6">
+        <label>TopologyAPI.h</label>
+        <link refid="_topology_a_p_i_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>TopologyAPIUnitTest.cpp</label>
+        <link refid="_topology_a_p_i_unit_test_8cpp"/>
+      </node>
+      <node id="10">
+        <label>TopologyAPIUnitTest.h</label>
+        <link refid="_topology_a_p_i_unit_test_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_device" prot="public">Device</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_DEVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_DEVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_device" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_device" kindref="compound">Device</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxValue;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(LOGGING)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ofstream*<sp/>log;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device</ref>(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxValue);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1ae1b227d4885dca3c2e20ce2a13d15b21" kindref="member">set_name</ref>(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1a58af9cb965fc686074efb53c4f259685" kindref="member">set_defaultValue</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1ae2bf3db6bc0ca5ff0b85def73e6b3dfd" kindref="member">set_minValue</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1ac3794fe95c05ca107e0d2426ab7ffae2" kindref="member">set_maxValue</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxValue);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_device_1a0eb6bbeb172906bc0c3eca3a8076e4de" kindref="member">get_name</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_device_1a9f2768578ef01cc303cf904136182afa" kindref="member">get_defaultValue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_device_1ae475b3e634f380ac140b249b069ded70" kindref="member">get_minValue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_device_1a03b61ac967c3338223bc60fe551366ed" kindref="member">get_maxValue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1a9e14e576fa18d8c913d974b5eb23268a" kindref="member">print</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(LOGGING)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setLogger(std::ofstream*<sp/>log);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_device_1a428ab2372177963494d2a8fe288d2315" kindref="member">~Device</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>!_DEVICE_H</highlight></codeline>
+    </programlisting>
+    <location file="Device.h"/>
+  </compounddef>
+</doxygen>

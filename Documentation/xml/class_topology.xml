@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_topology" kind="class" language="C++" prot="public">
+    <compoundname>Topology</compoundname>
+    <includes refid="_topology_8h" local="no">Topology.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_topology_1a10bc0079d3434fb497d313c9c592dabc" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Topology::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>Topology::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="13" column="13" bodyfile="Topology.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_topology_1ae5b1ccabc5b9534e7c22a448f35d2d8f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_component" kindref="compound">Component</ref> * &gt; *</type>
+        <definition>std::vector&lt;Component*&gt;* Topology::components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>Topology::components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="14" column="13" bodyfile="Topology.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_topology_1a076dee547b2b0b19f89774fe9641b9e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Topology::Topology</definition>
+        <argsstring>(std::string id)</argsstring>
+        <name>Topology</name>
+        <qualifiedname>Topology::Topology</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="21" column="1" bodyfile="Topology.cpp" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1a096c9f17cafd70c193b7e00f8491f539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Topology::Topology</definition>
+        <argsstring>(std::string id, std::vector&lt; Component * &gt; components)</argsstring>
+        <name>Topology</name>
+        <qualifiedname>Topology::Topology</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="class_component" kindref="compound">Component</ref> * &gt;</type>
+          <declname>components</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="22" column="1" bodyfile="Topology.cpp" bodystart="9" bodyend="13"/>
+        <references refid="class_topology_1ab87fbbfa27b54dd927a3068ca8148757" compoundref="_topology_8cpp" startline="20" endline="24">setComponents</references>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1af6784712f0be7dc10bfc9b2bfe2a7550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Topology::setID</definition>
+        <argsstring>(std::string id)</argsstring>
+        <name>setID</name>
+        <qualifiedname>Topology::setID</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="24" column="6" bodyfile="Topology.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1ab87fbbfa27b54dd927a3068ca8148757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Topology::setComponents</definition>
+        <argsstring>(std::vector&lt; Component * &gt; components)</argsstring>
+        <name>setComponents</name>
+        <qualifiedname>Topology::setComponents</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="class_component" kindref="compound">Component</ref> * &gt;</type>
+          <declname>components</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="25" column="6" bodyfile="Topology.cpp" bodystart="20" bodyend="24"/>
+        <referencedby refid="class_topology_1a096c9f17cafd70c193b7e00f8491f539" compoundref="_topology_8cpp" startline="9" endline="13">Topology</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1af5fd970c432740af72df3fa843c03cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Topology::getID</definition>
+        <argsstring>(void)</argsstring>
+        <name>getID</name>
+        <qualifiedname>Topology::getID</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="27" column="13" bodyfile="Topology.cpp" bodystart="26" bodyend="29"/>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a6883ea6a1c08c41632868cda93264871" compoundref="_topology_a_p_i_unit_test_8cpp" startline="127" endline="322">TopologyAPIUnitTest::TestQuery2</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" compoundref="_topology_a_p_i_unit_test_8cpp" startline="553" endline="758">TopologyAPIUnitTest::TestQuery4</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" compoundref="_topology_a_p_i_unit_test_8cpp" startline="760" endline="958">TopologyAPIUnitTest::TestQuery5</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" compoundref="_topology_a_p_i_unit_test_8cpp" startline="960" endline="1158">TopologyAPIUnitTest::TestQuery6</referencedby>
+        <referencedby refid="class_topology_a_p_i_1a17bf994f20dbbecc4245f1576bada45a" compoundref="_topology_a_p_i_8cpp" startline="219" endline="301">TopologyAPI::writeJSON</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1ae7581acf93bd20402f37f252a07f7ba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_component" kindref="compound">Component</ref> * &gt; *</type>
+        <definition>std::vector&lt; Component * &gt; * Topology::getComponents</definition>
+        <argsstring>(void)</argsstring>
+        <name>getComponents</name>
+        <qualifiedname>Topology::getComponents</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="28" column="13" bodyfile="Topology.cpp" bodystart="31" bodyend="34"/>
+        <referencedby refid="class_topology_a_p_i_1ae81b9033ff10bd079cf03bedcf5bf5ec" compoundref="_topology_a_p_i_8cpp" startline="356" endline="400">TopologyAPI::queryDevices</referencedby>
+        <referencedby refid="class_topology_a_p_i_1a1ac882ee0b95a3335fd387aa2cbf21f2" compoundref="_topology_a_p_i_8cpp" startline="402" endline="460">TopologyAPI::queryDevicesWithNetlistNode</referencedby>
+        <referencedby refid="class_topology_a_p_i_1a17bf994f20dbbecc4245f1576bada45a" compoundref="_topology_a_p_i_8cpp" startline="219" endline="301">TopologyAPI::writeJSON</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1ad4ba550251112a2f63b10a306692fc11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Topology::addComponent</definition>
+        <argsstring>(Component *component)</argsstring>
+        <name>addComponent</name>
+        <qualifiedname>Topology::addComponent</qualifiedname>
+        <param>
+          <type><ref refid="class_component" kindref="compound">Component</ref> *</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="30" column="6" bodyfile="Topology.cpp" bodystart="36" bodyend="41"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+        <referencedby refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" compoundref="_topology_a_p_i_8cpp" startline="155" endline="217">TopologyAPI::readJson</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a6883ea6a1c08c41632868cda93264871" compoundref="_topology_a_p_i_unit_test_8cpp" startline="127" endline="322">TopologyAPIUnitTest::TestQuery2</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" compoundref="_topology_a_p_i_unit_test_8cpp" startline="324" endline="551">TopologyAPIUnitTest::TestQuery3</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" compoundref="_topology_a_p_i_unit_test_8cpp" startline="553" endline="758">TopologyAPIUnitTest::TestQuery4</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" compoundref="_topology_a_p_i_unit_test_8cpp" startline="760" endline="958">TopologyAPIUnitTest::TestQuery5</referencedby>
+        <referencedby refid="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" compoundref="_topology_a_p_i_unit_test_8cpp" startline="960" endline="1158">TopologyAPIUnitTest::TestQuery6</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1a04ceaac63412fca96e8ae306e7dd0476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Topology::print</definition>
+        <argsstring>(void)</argsstring>
+        <name>print</name>
+        <qualifiedname>Topology::print</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="31" column="6" bodyfile="Topology.cpp" bodystart="43" bodyend="50"/>
+        <referencedby refid="class_topology_a_p_i_1ae81b9033ff10bd079cf03bedcf5bf5ec" compoundref="_topology_a_p_i_8cpp" startline="356" endline="400">TopologyAPI::queryDevices</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_1aa34c9890dd6df96be2fe41eea19b56f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Topology::~Topology</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Topology</name>
+        <qualifiedname>Topology::~Topology</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Topology.h" line="37" column="1" bodyfile="Topology.cpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Topology</label>
+        <link refid="class_topology"/>
+      </node>
+    </collaborationgraph>
+    <location file="Topology.h" line="10" column="1" bodyfile="Topology.h" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" prot="public" virt="non-virtual"><scope>Topology</scope><name>addComponent</name></member>
+      <member refid="class_topology_1ae5b1ccabc5b9534e7c22a448f35d2d8f" prot="private" virt="non-virtual"><scope>Topology</scope><name>components</name></member>
+      <member refid="class_topology_1ae7581acf93bd20402f37f252a07f7ba5" prot="public" virt="non-virtual"><scope>Topology</scope><name>getComponents</name></member>
+      <member refid="class_topology_1af5fd970c432740af72df3fa843c03cb3" prot="public" virt="non-virtual"><scope>Topology</scope><name>getID</name></member>
+      <member refid="class_topology_1a10bc0079d3434fb497d313c9c592dabc" prot="private" virt="non-virtual"><scope>Topology</scope><name>id</name></member>
+      <member refid="class_topology_1a04ceaac63412fca96e8ae306e7dd0476" prot="public" virt="non-virtual"><scope>Topology</scope><name>print</name></member>
+      <member refid="class_topology_1ab87fbbfa27b54dd927a3068ca8148757" prot="public" virt="non-virtual"><scope>Topology</scope><name>setComponents</name></member>
+      <member refid="class_topology_1af6784712f0be7dc10bfc9b2bfe2a7550" prot="public" virt="non-virtual"><scope>Topology</scope><name>setID</name></member>
+      <member refid="class_topology_1a076dee547b2b0b19f89774fe9641b9e2" prot="public" virt="non-virtual"><scope>Topology</scope><name>Topology</name></member>
+      <member refid="class_topology_1a096c9f17cafd70c193b7e00f8491f539" prot="public" virt="non-virtual"><scope>Topology</scope><name>Topology</name></member>
+      <member refid="class_topology_1aa34c9890dd6df96be2fe41eea19b56f6" prot="public" virt="non-virtual"><scope>Topology</scope><name>~Topology</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

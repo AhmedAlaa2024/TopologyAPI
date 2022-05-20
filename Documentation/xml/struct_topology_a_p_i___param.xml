@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="struct_topology_a_p_i___param" kind="struct" language="C++" prot="public">
+    <compoundname>TopologyAPI_Param</compoundname>
+    <includes refid="_topology_a_p_i_8h" local="no">TopologyAPI.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_topology_a_p_i___param_1a88613f762c804a34a9f427bbcd6a4e37" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TopologyAPI_Param::filePath</definition>
+        <argsstring></argsstring>
+        <name>filePath</name>
+        <qualifiedname>TopologyAPI_Param::filePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="31" column="13" bodyfile="TopologyAPI.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">TopologyAPI::executeQuery</referencedby>
+        <referencedby refid="_app_8cpp_1a4b59b579271984dce29702d423c22f68" compoundref="_app_8cpp" startline="142" endline="250">queryPreprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_topology_a_p_i___param_1a840991af5ebb7c9bc05d51c341873555" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TopologyAPI_Param::topologyID</definition>
+        <argsstring></argsstring>
+        <name>topologyID</name>
+        <qualifiedname>TopologyAPI_Param::topologyID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="32" column="13" bodyfile="TopologyAPI.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">TopologyAPI::executeQuery</referencedby>
+        <referencedby refid="_app_8cpp_1a4b59b579271984dce29702d423c22f68" compoundref="_app_8cpp" startline="142" endline="250">queryPreprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_topology_a_p_i___param_1a8180ad0470bf960aba4836df2eb1dc9a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TopologyAPI_Param::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <qualifiedname>TopologyAPI_Param::node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="33" column="13" bodyfile="TopologyAPI.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" compoundref="_topology_a_p_i_8cpp" startline="80" endline="111">TopologyAPI::executeQuery</referencedby>
+        <referencedby refid="_app_8cpp_1a4b59b579271984dce29702d423c22f68" compoundref="_app_8cpp" startline="142" endline="250">queryPreprocessing</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TopologyAPI_Param</label>
+        <link refid="struct_topology_a_p_i___param"/>
+      </node>
+    </collaborationgraph>
+    <location file="TopologyAPI.h" line="30" column="1" bodyfile="TopologyAPI.h" bodystart="30" bodyend="34"/>
+    <listofallmembers>
+      <member refid="struct_topology_a_p_i___param_1a88613f762c804a34a9f427bbcd6a4e37" prot="public" virt="non-virtual"><scope>TopologyAPI_Param</scope><name>filePath</name></member>
+      <member refid="struct_topology_a_p_i___param_1a8180ad0470bf960aba4836df2eb1dc9a" prot="public" virt="non-virtual"><scope>TopologyAPI_Param</scope><name>node</name></member>
+      <member refid="struct_topology_a_p_i___param_1a840991af5ebb7c9bc05d51c341873555" prot="public" virt="non-virtual"><scope>TopologyAPI_Param</scope><name>topologyID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

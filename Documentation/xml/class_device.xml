@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_device" kind="class" language="C++" prot="public">
+    <compoundname>Device</compoundname>
+    <derivedcompoundref refid="class_n_m_o_s" prot="public" virt="non-virtual">NMOS</derivedcompoundref>
+    <derivedcompoundref refid="class_resistor" prot="public" virt="non-virtual">Resistor</derivedcompoundref>
+    <includes refid="_device_8h" local="no">Device.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_device_1ae779f5ee618677629b71287f3f77f8e8" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Device::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Device::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="9" column="13" bodyfile="Device.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_device_1a8f30ed046a1fb3404ac7ef3a13fd015e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Device::defaultValue</definition>
+        <argsstring></argsstring>
+        <name>defaultValue</name>
+        <qualifiedname>Device::defaultValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="10" column="7" bodyfile="Device.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_device_1addc3e7c807190e16aca770d591f29661" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Device::minValue</definition>
+        <argsstring></argsstring>
+        <name>minValue</name>
+        <qualifiedname>Device::minValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="11" column="7" bodyfile="Device.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_device_1aa80b61a93a13ccf801b4d46d52c22ef3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Device::maxValue</definition>
+        <argsstring></argsstring>
+        <name>maxValue</name>
+        <qualifiedname>Device::maxValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="12" column="7" bodyfile="Device.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_device_1a2f308f1fe5e1e32b37333887eba268a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Device::Device</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>Device</name>
+        <qualifiedname>Device::Device</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="19" column="1" bodyfile="Device.cpp" bodystart="4" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a7afd4cb21bd60502507096169154b57b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Device::Device</definition>
+        <argsstring>(std::string name, float defaultValue)</argsstring>
+        <name>Device</name>
+        <qualifiedname>Device::Device</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="20" column="1" bodyfile="Device.cpp" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a3ee9385d7b4de8416ffd3218cc6d52f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Device::Device</definition>
+        <argsstring>(std::string name, float defaultValue, float minValue)</argsstring>
+        <name>Device</name>
+        <qualifiedname>Device::Device</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>defaultValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="21" column="1" bodyfile="Device.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a00d6384474329b3fd611899826dc2724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Device::Device</definition>
+        <argsstring>(std::string name, float defaultValue, float minValue, float maxValue)</argsstring>
+        <name>Device</name>
+        <qualifiedname>Device::Device</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>defaultValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="22" column="1" bodyfile="Device.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1ae1b227d4885dca3c2e20ce2a13d15b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Device::set_name</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>set_name</name>
+        <qualifiedname>Device::set_name</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="24" column="6" bodyfile="Device.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a58af9cb965fc686074efb53c4f259685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Device::set_defaultValue</definition>
+        <argsstring>(float defaultValue)</argsstring>
+        <name>set_defaultValue</name>
+        <qualifiedname>Device::set_defaultValue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="25" column="6" bodyfile="Device.cpp" bodystart="29" bodyend="32"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1ae2bf3db6bc0ca5ff0b85def73e6b3dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Device::set_minValue</definition>
+        <argsstring>(float minValue)</argsstring>
+        <name>set_minValue</name>
+        <qualifiedname>Device::set_minValue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>minValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="26" column="6" bodyfile="Device.cpp" bodystart="34" bodyend="37"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1ac3794fe95c05ca107e0d2426ab7ffae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Device::set_maxValue</definition>
+        <argsstring>(float maxValue)</argsstring>
+        <name>set_maxValue</name>
+        <qualifiedname>Device::set_maxValue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="27" column="6" bodyfile="Device.cpp" bodystart="39" bodyend="42"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a0eb6bbeb172906bc0c3eca3a8076e4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Device::get_name</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_name</name>
+        <qualifiedname>Device::get_name</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="29" column="13" bodyfile="Device.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a9f2768578ef01cc303cf904136182afa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Device::get_defaultValue</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_defaultValue</name>
+        <qualifiedname>Device::get_defaultValue</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="30" column="7" bodyfile="Device.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1ae475b3e634f380ac140b249b069ded70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Device::get_minValue</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_minValue</name>
+        <qualifiedname>Device::get_minValue</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="31" column="7" bodyfile="Device.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a03b61ac967c3338223bc60fe551366ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Device::get_maxValue</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_maxValue</name>
+        <qualifiedname>Device::get_maxValue</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="32" column="7" bodyfile="Device.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a9e14e576fa18d8c913d974b5eb23268a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Device::print</definition>
+        <argsstring>(void)</argsstring>
+        <name>print</name>
+        <qualifiedname>Device::print</qualifiedname>
+        <reimplementedby refid="class_n_m_o_s_1a349e0a95bbbe1ff0f6fcb52c74660662">print</reimplementedby>
+        <reimplementedby refid="class_resistor_1a0fd7b85aff5a86832edc2a02e6247fa5">print</reimplementedby>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="34" column="14" bodyfile="Device.cpp" bodystart="64" bodyend="71"/>
+        <referencedby refid="class_component_1a27204028d45699ba533d06bffa8ef62d" compoundref="_component_8cpp" startline="74" endline="92">Component::print</referencedby>
+        <referencedby refid="class_n_m_o_s_1a349e0a95bbbe1ff0f6fcb52c74660662" compoundref="_n_m_o_s_8cpp" startline="13" endline="16">NMOS::print</referencedby>
+        <referencedby refid="class_resistor_1a0fd7b85aff5a86832edc2a02e6247fa5" compoundref="_resistor_8cpp" startline="13" endline="16">Resistor::print</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_device_1a428ab2372177963494d2a8fe288d2315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Device::~Device</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Device</name>
+        <qualifiedname>Device::~Device</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Device.h" line="40" column="1" bodyfile="Device.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Device</label>
+        <link refid="class_device"/>
+      </node>
+      <node id="2">
+        <label>NMOS</label>
+        <link refid="class_n_m_o_s"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Resistor</label>
+        <link refid="class_resistor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Device</label>
+        <link refid="class_device"/>
+      </node>
+    </collaborationgraph>
+    <location file="Device.h" line="6" column="1" bodyfile="Device.h" bodystart="7" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_device_1a8f30ed046a1fb3404ac7ef3a13fd015e" prot="private" virt="non-virtual"><scope>Device</scope><name>defaultValue</name></member>
+      <member refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" prot="public" virt="non-virtual"><scope>Device</scope><name>Device</name></member>
+      <member refid="class_device_1a7afd4cb21bd60502507096169154b57b" prot="public" virt="non-virtual"><scope>Device</scope><name>Device</name></member>
+      <member refid="class_device_1a3ee9385d7b4de8416ffd3218cc6d52f2" prot="public" virt="non-virtual"><scope>Device</scope><name>Device</name></member>
+      <member refid="class_device_1a00d6384474329b3fd611899826dc2724" prot="public" virt="non-virtual"><scope>Device</scope><name>Device</name></member>
+      <member refid="class_device_1a9f2768578ef01cc303cf904136182afa" prot="public" virt="non-virtual"><scope>Device</scope><name>get_defaultValue</name></member>
+      <member refid="class_device_1a03b61ac967c3338223bc60fe551366ed" prot="public" virt="non-virtual"><scope>Device</scope><name>get_maxValue</name></member>
+      <member refid="class_device_1ae475b3e634f380ac140b249b069ded70" prot="public" virt="non-virtual"><scope>Device</scope><name>get_minValue</name></member>
+      <member refid="class_device_1a0eb6bbeb172906bc0c3eca3a8076e4de" prot="public" virt="non-virtual"><scope>Device</scope><name>get_name</name></member>
+      <member refid="class_device_1aa80b61a93a13ccf801b4d46d52c22ef3" prot="private" virt="non-virtual"><scope>Device</scope><name>maxValue</name></member>
+      <member refid="class_device_1addc3e7c807190e16aca770d591f29661" prot="private" virt="non-virtual"><scope>Device</scope><name>minValue</name></member>
+      <member refid="class_device_1ae779f5ee618677629b71287f3f77f8e8" prot="private" virt="non-virtual"><scope>Device</scope><name>name</name></member>
+      <member refid="class_device_1a9e14e576fa18d8c913d974b5eb23268a" prot="public" virt="virtual"><scope>Device</scope><name>print</name></member>
+      <member refid="class_device_1a58af9cb965fc686074efb53c4f259685" prot="public" virt="non-virtual"><scope>Device</scope><name>set_defaultValue</name></member>
+      <member refid="class_device_1ac3794fe95c05ca107e0d2426ab7ffae2" prot="public" virt="non-virtual"><scope>Device</scope><name>set_maxValue</name></member>
+      <member refid="class_device_1ae2bf3db6bc0ca5ff0b85def73e6b3dfd" prot="public" virt="non-virtual"><scope>Device</scope><name>set_minValue</name></member>
+      <member refid="class_device_1ae1b227d4885dca3c2e20ce2a13d15b21" prot="public" virt="non-virtual"><scope>Device</scope><name>set_name</name></member>
+      <member refid="class_device_1a428ab2372177963494d2a8fe288d2315" prot="public" virt="non-virtual"><scope>Device</scope><name>~Device</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

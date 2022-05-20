@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_device_8cpp" kind="file" language="C++">
+    <compoundname>Device.cpp</compoundname>
+    <includes refid="_device_8h" local="yes">Device.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Device.cpp</label>
+        <link refid="_device_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Device.h</label>
+        <link refid="_device_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_device_8h" kindref="compound">Device.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" refkind="member"><highlight class="normal"><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device::Device</ref>(std::string<sp/>name):name(name),<sp/>defaultValue(0.0f),<sp/>minValue(0.0f),<sp/>maxValue(0.0f)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;Notification&gt;:<sp/>Device[&apos;&quot;</highlight><highlight class="normal"><sp/>+<sp/>this-&gt;name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;]<sp/>is<sp/>being<sp/>constructed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_device_1a7afd4cb21bd60502507096169154b57b" refkind="member"><highlight class="normal"><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device::Device</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue):name(name),defaultValue(defaultValue),<sp/>minValue(0.0f),<sp/>maxValue(0.0f)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;Notification&gt;:<sp/>Device[&apos;&quot;</highlight><highlight class="normal"><sp/>+<sp/>this-&gt;name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;]<sp/>is<sp/>being<sp/>constructed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_device_1a3ee9385d7b4de8416ffd3218cc6d52f2" refkind="member"><highlight class="normal"><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device::Device</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue):name(name),<sp/>defaultValue(defaultValue),<sp/>minValue(minValue),<sp/>maxValue(0.0f)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;Notification&gt;:<sp/>Device[&apos;&quot;</highlight><highlight class="normal"><sp/>+<sp/>this-&gt;name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;]<sp/>is<sp/>being<sp/>constructed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_device_1a00d6384474329b3fd611899826dc2724" refkind="member"><highlight class="normal"><ref refid="class_device_1a2f308f1fe5e1e32b37333887eba268a4" kindref="member">Device::Device</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxValue)<sp/>:<sp/>name(name),<sp/>defaultValue(defaultValue),<sp/>minValue(minValue),<sp/>maxValue(maxValue)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;Notification&gt;:<sp/>Device[&apos;&quot;</highlight><highlight class="normal"><sp/>+<sp/>this-&gt;name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;]<sp/>is<sp/>being<sp/>constructed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_device_1ae1b227d4885dca3c2e20ce2a13d15b21" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1ae1b227d4885dca3c2e20ce2a13d15b21" kindref="member">Device::set_name</ref>(std::string<sp/>name)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_device_1a58af9cb965fc686074efb53c4f259685" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1a58af9cb965fc686074efb53c4f259685" kindref="member">Device::set_defaultValue</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;defaultValue<sp/>=<sp/>defaultValue;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_device_1ae2bf3db6bc0ca5ff0b85def73e6b3dfd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1ae2bf3db6bc0ca5ff0b85def73e6b3dfd" kindref="member">Device::set_minValue</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;minValue<sp/>=<sp/>minValue;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_device_1ac3794fe95c05ca107e0d2426ab7ffae2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1ac3794fe95c05ca107e0d2426ab7ffae2" kindref="member">Device::set_maxValue</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxValue)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;maxValue<sp/>=<sp/>maxValue;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_device_1a0eb6bbeb172906bc0c3eca3a8076e4de" refkind="member"><highlight class="normal">std::string<sp/><ref refid="class_device_1a0eb6bbeb172906bc0c3eca3a8076e4de" kindref="member">Device::get_name</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;name;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_device_1a9f2768578ef01cc303cf904136182afa" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_device_1a9f2768578ef01cc303cf904136182afa" kindref="member">Device::get_defaultValue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;defaultValue;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_device_1ae475b3e634f380ac140b249b069ded70" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_device_1ae475b3e634f380ac140b249b069ded70" kindref="member">Device::get_minValue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;minValue;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="class_device_1a03b61ac967c3338223bc60fe551366ed" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_device_1a03b61ac967c3338223bc60fe551366ed" kindref="member">Device::get_maxValue</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;maxValue;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_device_1a9e14e576fa18d8c913d974b5eb23268a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_device_1a9e14e576fa18d8c913d974b5eb23268a" kindref="member">Device::print</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>this-&gt;name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;:<sp/>{&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;default&apos;:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>this-&gt;defaultValue<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;min&apos;:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>this-&gt;minValue<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;max&apos;:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>this-&gt;maxValue<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;},&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(LOGGING)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Topology::setLogger(std::ofstream*<sp/>log)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;log<sp/>=<sp/>log;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_device_1a428ab2372177963494d2a8fe288d2315" refkind="member"><highlight class="normal"><ref refid="class_device_1a428ab2372177963494d2a8fe288d2315" kindref="member">Device::~Device</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;Notification&gt;:<sp/>Device[&apos;&quot;</highlight><highlight class="normal"><sp/>+<sp/>this-&gt;name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;]<sp/>is<sp/>being<sp/>destructed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Device.cpp"/>
+  </compounddef>
+</doxygen>

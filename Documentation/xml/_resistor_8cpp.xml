@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_resistor_8cpp" kind="file" language="C++">
+    <compoundname>Resistor.cpp</compoundname>
+    <includes refid="_resistor_8h" local="yes">Resistor.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Device.h</label>
+        <link refid="_device_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Resistor.cpp</label>
+        <link refid="_resistor_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Resistor.h</label>
+        <link refid="_resistor_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_resistor_8h" kindref="compound">Resistor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_resistor_1a8cfbf5bb9e943a81f4435a60b8220aef" refkind="member"><highlight class="normal"><ref refid="class_resistor_1a8cfbf5bb9e943a81f4435a60b8220aef" kindref="member">Resistor::Resistor</ref>(std::string<sp/>name):<ref refid="class_device" kindref="compound">Device</ref>(name)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;Notification&gt;:<sp/>Resistor[&apos;&quot;</highlight><highlight class="normal"><sp/>+<sp/>name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;]<sp/>is<sp/>being<sp/>constructed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_resistor_1a280555a9b0bcc3824f6f0b120ecd8ff0" refkind="member"><highlight class="normal"><ref refid="class_resistor_1a8cfbf5bb9e943a81f4435a60b8220aef" kindref="member">Resistor::Resistor</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>defaultValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minValue,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxValue):<ref refid="class_device" kindref="compound">Device</ref>(name,<sp/>defaultValue,<sp/>minValue,<sp/>maxValue)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;Notification&gt;:<sp/>Resistor[&apos;&quot;</highlight><highlight class="normal"><sp/>+<sp/>name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;]<sp/>is<sp/>being<sp/>constructed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_resistor_1a0fd7b85aff5a86832edc2a02e6247fa5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_resistor_1a0fd7b85aff5a86832edc2a02e6247fa5" kindref="member">Resistor::print</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_device_1a9e14e576fa18d8c913d974b5eb23268a" kindref="member">Device::print</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_resistor_1ad744a359c2e06df9e481bced542c0072" refkind="member"><highlight class="normal"><ref refid="class_resistor_1ad744a359c2e06df9e481bced542c0072" kindref="member">Resistor::~Resistor</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Resistor.cpp"/>
+  </compounddef>
+</doxygen>

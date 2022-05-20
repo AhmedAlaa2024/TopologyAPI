@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_topology_a_p_i_unit_test" kind="class" language="C++" prot="public">
+    <compoundname>TopologyAPIUnitTest</compoundname>
+    <includes refid="_topology_a_p_i_unit_test_8h" local="no">TopologyAPIUnitTest.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_topology_a_p_i_unit_test_1a56c68c1a8c0c4cb3a85eb02ece5bf58b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_topology_a_p_i" kindref="compound">TopologyAPI</ref> *</type>
+        <definition>TopologyAPI* TopologyAPIUnitTest::connection</definition>
+        <argsstring></argsstring>
+        <name>connection</name>
+        <qualifiedname>TopologyAPIUnitTest::connection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="11" column="13" bodyfile="TopologyAPIUnitTest.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1a846cfba457e74f2083ecd2cc70277ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TopologyAPIUnitTest::TopologyAPIUnitTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>TopologyAPIUnitTest</name>
+        <qualifiedname>TopologyAPIUnitTest::TopologyAPIUnitTest</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="18" column="1" bodyfile="TopologyAPIUnitTest.cpp" bodystart="3" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1a20263e59c3099a1a5f248202d657bb82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPIUnitTest::TestQuery1</definition>
+        <argsstring>(void)</argsstring>
+        <name>TestQuery1</name>
+        <qualifiedname>TopologyAPIUnitTest::TestQuery1</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="20" column="6" bodyfile="TopologyAPIUnitTest.cpp" bodystart="13" bodyend="125"/>
+        <references refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" compoundref="_topology_a_p_i_8cpp" startline="155" endline="217">TopologyAPI::readJson</references>
+        <referencedby refid="_app_8cpp_1a2049c38900714fc6950651bf46fdad91" compoundref="_app_8cpp" startline="261" endline="273">unitTesting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1a6883ea6a1c08c41632868cda93264871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPIUnitTest::TestQuery2</definition>
+        <argsstring>(void)</argsstring>
+        <name>TestQuery2</name>
+        <qualifiedname>TopologyAPIUnitTest::TestQuery2</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="21" column="6" bodyfile="TopologyAPIUnitTest.cpp" bodystart="127" bodyend="322"/>
+        <references refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" compoundref="_topology_8cpp" startline="36" endline="41">Topology::addComponent</references>
+        <references refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" compoundref="_topology_a_p_i_8cpp" startline="48" endline="51">TopologyAPI::addTopology</references>
+        <references refid="class_topology_1af5fd970c432740af72df3fa843c03cb3" compoundref="_topology_8cpp" startline="26" endline="29">Topology::getID</references>
+        <references refid="class_topology_a_p_i_1a17bf994f20dbbecc4245f1576bada45a" compoundref="_topology_a_p_i_8cpp" startline="219" endline="301">TopologyAPI::writeJSON</references>
+        <referencedby refid="_app_8cpp_1a2049c38900714fc6950651bf46fdad91" compoundref="_app_8cpp" startline="261" endline="273">unitTesting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPIUnitTest::TestQuery3</definition>
+        <argsstring>(void)</argsstring>
+        <name>TestQuery3</name>
+        <qualifiedname>TopologyAPIUnitTest::TestQuery3</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="22" column="6" bodyfile="TopologyAPIUnitTest.cpp" bodystart="324" bodyend="551"/>
+        <references refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" compoundref="_topology_8cpp" startline="36" endline="41">Topology::addComponent</references>
+        <references refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" compoundref="_topology_a_p_i_8cpp" startline="48" endline="51">TopologyAPI::addTopology</references>
+        <references refid="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" compoundref="_topology_a_p_i_8cpp" startline="331" endline="354">TopologyAPI::deleteTopology</references>
+        <references refid="class_topology_a_p_i_1aa944f1e4fc11a860ad8c42140f5fe9c1" compoundref="_topology_a_p_i_8cpp" startline="75" endline="78">TopologyAPI::getTopologies</references>
+        <references refid="class_topology_a_p_i_1a162e7d8dd704d8d24c31d0a2d909001f" compoundref="_topology_a_p_i_8cpp" startline="303" endline="329">TopologyAPI::queryTopologies</references>
+        <references refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" compoundref="_topology_a_p_i_8cpp" startline="155" endline="217">TopologyAPI::readJson</references>
+        <referencedby refid="_app_8cpp_1a2049c38900714fc6950651bf46fdad91" compoundref="_app_8cpp" startline="261" endline="273">unitTesting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPIUnitTest::TestQuery4</definition>
+        <argsstring>(void)</argsstring>
+        <name>TestQuery4</name>
+        <qualifiedname>TopologyAPIUnitTest::TestQuery4</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="23" column="6" bodyfile="TopologyAPIUnitTest.cpp" bodystart="553" bodyend="758"/>
+        <references refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" compoundref="_topology_8cpp" startline="36" endline="41">Topology::addComponent</references>
+        <references refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" compoundref="_topology_a_p_i_8cpp" startline="48" endline="51">TopologyAPI::addTopology</references>
+        <references refid="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" compoundref="_topology_a_p_i_8cpp" startline="331" endline="354">TopologyAPI::deleteTopology</references>
+        <references refid="class_topology_1af5fd970c432740af72df3fa843c03cb3" compoundref="_topology_8cpp" startline="26" endline="29">Topology::getID</references>
+        <references refid="class_topology_a_p_i_1aa944f1e4fc11a860ad8c42140f5fe9c1" compoundref="_topology_a_p_i_8cpp" startline="75" endline="78">TopologyAPI::getTopologies</references>
+        <references refid="class_topology_a_p_i_1a162e7d8dd704d8d24c31d0a2d909001f" compoundref="_topology_a_p_i_8cpp" startline="303" endline="329">TopologyAPI::queryTopologies</references>
+        <referencedby refid="_app_8cpp_1a2049c38900714fc6950651bf46fdad91" compoundref="_app_8cpp" startline="261" endline="273">unitTesting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPIUnitTest::TestQuery5</definition>
+        <argsstring>(void)</argsstring>
+        <name>TestQuery5</name>
+        <qualifiedname>TopologyAPIUnitTest::TestQuery5</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="24" column="6" bodyfile="TopologyAPIUnitTest.cpp" bodystart="760" bodyend="958"/>
+        <references refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" compoundref="_topology_8cpp" startline="36" endline="41">Topology::addComponent</references>
+        <references refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" compoundref="_topology_a_p_i_8cpp" startline="48" endline="51">TopologyAPI::addTopology</references>
+        <references refid="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" compoundref="_topology_a_p_i_8cpp" startline="331" endline="354">TopologyAPI::deleteTopology</references>
+        <references refid="class_topology_1af5fd970c432740af72df3fa843c03cb3" compoundref="_topology_8cpp" startline="26" endline="29">Topology::getID</references>
+        <references refid="class_topology_a_p_i_1aa944f1e4fc11a860ad8c42140f5fe9c1" compoundref="_topology_a_p_i_8cpp" startline="75" endline="78">TopologyAPI::getTopologies</references>
+        <references refid="class_topology_a_p_i_1ae81b9033ff10bd079cf03bedcf5bf5ec" compoundref="_topology_a_p_i_8cpp" startline="356" endline="400">TopologyAPI::queryDevices</references>
+        <referencedby refid="_app_8cpp_1a2049c38900714fc6950651bf46fdad91" compoundref="_app_8cpp" startline="261" endline="273">unitTesting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TopologyAPIUnitTest::TestQuery6</definition>
+        <argsstring>(void)</argsstring>
+        <name>TestQuery6</name>
+        <qualifiedname>TopologyAPIUnitTest::TestQuery6</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="25" column="6" bodyfile="TopologyAPIUnitTest.cpp" bodystart="960" bodyend="1158"/>
+        <references refid="class_topology_1ad4ba550251112a2f63b10a306692fc11" compoundref="_topology_8cpp" startline="36" endline="41">Topology::addComponent</references>
+        <references refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" compoundref="_topology_a_p_i_8cpp" startline="48" endline="51">TopologyAPI::addTopology</references>
+        <references refid="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" compoundref="_topology_a_p_i_8cpp" startline="331" endline="354">TopologyAPI::deleteTopology</references>
+        <references refid="class_topology_1af5fd970c432740af72df3fa843c03cb3" compoundref="_topology_8cpp" startline="26" endline="29">Topology::getID</references>
+        <references refid="class_topology_a_p_i_1aa944f1e4fc11a860ad8c42140f5fe9c1" compoundref="_topology_a_p_i_8cpp" startline="75" endline="78">TopologyAPI::getTopologies</references>
+        <references refid="class_topology_a_p_i_1a1ac882ee0b95a3335fd387aa2cbf21f2" compoundref="_topology_a_p_i_8cpp" startline="402" endline="460">TopologyAPI::queryDevicesWithNetlistNode</references>
+        <referencedby refid="_app_8cpp_1a2049c38900714fc6950651bf46fdad91" compoundref="_app_8cpp" startline="261" endline="273">unitTesting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_topology_a_p_i_unit_test_1a574d8b713466f96be143963cf636494f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TopologyAPIUnitTest::~TopologyAPIUnitTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>~TopologyAPIUnitTest</name>
+        <qualifiedname>TopologyAPIUnitTest::~TopologyAPIUnitTest</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPIUnitTest.h" line="31" column="1" bodyfile="TopologyAPIUnitTest.cpp" bodystart="1160" bodyend="1163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TopologyAPIUnitTest</label>
+        <link refid="class_topology_a_p_i_unit_test"/>
+      </node>
+    </collaborationgraph>
+    <location file="TopologyAPIUnitTest.h" line="8" column="1" bodyfile="TopologyAPIUnitTest.h" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_topology_a_p_i_unit_test_1a56c68c1a8c0c4cb3a85eb02ece5bf58b" prot="private" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>connection</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1a20263e59c3099a1a5f248202d657bb82" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>TestQuery1</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1a6883ea6a1c08c41632868cda93264871" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>TestQuery2</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1a54ce614444370e5b19fa7d4c3b14cdda" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>TestQuery3</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1af3776a5093fae69dd6c84ed77c2d964c" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>TestQuery4</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1a66d3e8e974876d557a5b6ea6005aec99" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>TestQuery5</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1abe36e7df846b4200c3eaa356b0fd8b49" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>TestQuery6</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1a846cfba457e74f2083ecd2cc70277ca1" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>TopologyAPIUnitTest</name></member>
+      <member refid="class_topology_a_p_i_unit_test_1a574d8b713466f96be143963cf636494f" prot="public" virt="non-virtual"><scope>TopologyAPIUnitTest</scope><name>~TopologyAPIUnitTest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

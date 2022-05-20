@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_topology_a_p_i_8h" kind="file" language="C++">
+    <compoundname>TopologyAPI.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">random</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">unordered_map</includes>
+    <includes refid="_topology_8h" local="yes">Topology.h</includes>
+    <includes refid="_component_8h" local="yes">Component.h</includes>
+    <includes refid="_resistor_8h" local="yes">Resistor.h</includes>
+    <includes refid="_n_m_o_s_8h" local="yes">NMOS.h</includes>
+    <includes refid="defs_8h" local="yes">defs.h</includes>
+    <includedby refid="_app_8h" local="yes">App.h</includedby>
+    <includedby refid="_topology_a_p_i_8cpp" local="yes">TopologyAPI.cpp</includedby>
+    <includedby refid="_topology_a_p_i_unit_test_8h" local="yes">TopologyAPIUnitTest.h</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>Component.h</label>
+        <link refid="_component_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Device.h</label>
+        <link refid="_device_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>NMOS.h</label>
+        <link refid="_n_m_o_s_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Resistor.h</label>
+        <link refid="_resistor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Topology.h</label>
+        <link refid="_topology_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>TopologyAPI.h</label>
+        <link refid="_topology_a_p_i_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>defs.h</label>
+        <link refid="defs_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>fstream</label>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="3">
+        <label>random</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>unordered_map</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>App.cpp</label>
+        <link refid="_app_8cpp"/>
+      </node>
+      <node id="2">
+        <label>App.h</label>
+        <link refid="_app_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>TopologyAPI.cpp</label>
+        <link refid="_topology_a_p_i_8cpp"/>
+      </node>
+      <node id="1">
+        <label>TopologyAPI.h</label>
+        <link refid="_topology_a_p_i_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>TopologyAPIUnitTest.cpp</label>
+        <link refid="_topology_a_p_i_unit_test_8cpp"/>
+      </node>
+      <node id="5">
+        <label>TopologyAPIUnitTest.h</label>
+        <link refid="_topology_a_p_i_unit_test_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_topology_a_p_i___param" prot="public">TopologyAPI_Param</innerclass>
+    <innerclass refid="class_topology_a_p_i" prot="public">TopologyAPI</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_topology_a_p_i_8h_1af03a926025443eec3485fad6b7ef5860" prot="public" static="no">
+        <name>NUM_SUPPORTED_QUERIES</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="16" column="9" bodyfile="TopologyAPI.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>QUERY</name>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a4fc963e213bba362778f5c175eb4d5ff" prot="public">
+          <name>HELP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a3466fab4975481651940ed328aa990e4" prot="public">
+          <name>READ</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59ad4b9e47f65b6e79b010582f15785867e" prot="public">
+          <name>WRITE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a646cee2a1c60ed7cf67c1868ce51aeda" prot="public">
+          <name>WHICH_TOPOLOGIES</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a32f68a60cef40faedbc6af20298c1a1e" prot="public">
+          <name>DELETE</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a6eee0f5646c1da270d78508b736ae90b" prot="public">
+          <name>WHICH_DEVICES</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59ad2067c87931b1be2526ccb816575d19b" prot="public">
+          <name>IS_CONNECTED</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a294ce20cdefa29be3be0735cb62e715d" prot="public">
+          <name>CREATE</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TopologyAPI.h" line="19" column="1" bodyfile="TopologyAPI.h" bodystart="19" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_TOPOLOGY_API_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_TOPOLOGY_API_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_topology_8h" kindref="compound">Topology.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_component_8h" kindref="compound">Component.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_resistor_8h" kindref="compound">Resistor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_n_m_o_s_8h" kindref="compound">NMOS.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="defs_8h" kindref="compound">defs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_topology_a_p_i_8h_1af03a926025443eec3485fad6b7ef5860" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NUM_SUPPORTED_QUERIES<sp/><sp/><sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">/********************************************<sp/>Structs<sp/>and<sp/>Enums<sp/>***************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a4fc963e213bba362778f5c175eb4d5ff" kindref="member">HELP</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a3466fab4975481651940ed328aa990e4" kindref="member">READ</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59ad4b9e47f65b6e79b010582f15785867e" kindref="member">WRITE</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a646cee2a1c60ed7cf67c1868ce51aeda" kindref="member">WHICH_TOPOLOGIES</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a32f68a60cef40faedbc6af20298c1a1e" kindref="member">DELETE</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a6eee0f5646c1da270d78508b736ae90b" kindref="member">WHICH_DEVICES</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59ad2067c87931b1be2526ccb816575d19b" kindref="member">IS_CONNECTED</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59a294ce20cdefa29be3be0735cb62e715d" kindref="member">CREATE</ref><sp/>=<sp/>7</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="struct_topology_a_p_i___param" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_topology_a_p_i___param" kindref="compound">TopologyAPI_Param</ref><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="struct_topology_a_p_i___param_1a88613f762c804a34a9f427bbcd6a4e37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_topology_a_p_i___param_1a88613f762c804a34a9f427bbcd6a4e37" kindref="member">filePath</ref>;</highlight></codeline>
+<codeline lineno="32" refid="struct_topology_a_p_i___param_1a840991af5ebb7c9bc05d51c341873555" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_topology_a_p_i___param_1a840991af5ebb7c9bc05d51c341873555" kindref="member">topologyID</ref>;</highlight></codeline>
+<codeline lineno="33" refid="struct_topology_a_p_i___param_1a8180ad0470bf960aba4836df2eb1dc9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_topology_a_p_i___param_1a8180ad0470bf960aba4836df2eb1dc9a" kindref="member">node</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_topology_a_p_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_topology_a_p_i" kindref="compound">TopologyAPI</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>connectionID;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref><sp/>currentQuery;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Topology*&gt;<sp/>topologies;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>chech_path(std::string<sp/>filePath);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(LOGGING)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ofstream*<sp/>log;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_topology_a_p_i_1a6f1f6bdadf6ded2edace3c5226f1bf72" kindref="member">TopologyAPI</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_topology_a_p_i_1a6f1f6bdadf6ded2edace3c5226f1bf72" kindref="member">TopologyAPI</ref>(<ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref><sp/>currentQuery);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_topology_a_p_i_1a6f1f6bdadf6ded2edace3c5226f1bf72" kindref="member">TopologyAPI</ref>(std::string<sp/>filePath);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_topology_a_p_i_1a6f1f6bdadf6ded2edace3c5226f1bf72" kindref="member">TopologyAPI</ref>(<ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref><sp/>currentQuery,<sp/>std::string<sp/>filePath);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_topology_a_p_i_1ae225dfa227bf47825f9799c6338023d3" kindref="member">randomString</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_topology_a_p_i_1a028bf8ca5ae4ae120bec290fdc9aa03b" kindref="member">getConnectionID</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref><sp/><ref refid="class_topology_a_p_i_1a343df5494e6fbe1fe1f9b778eb71ebb1" kindref="member">getCurrentQuery</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1a634b301588095da8733de1e9b14a7f81" kindref="member">getNumberOfTopologies</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Topology*&gt;*<sp/><ref refid="class_topology_a_p_i_1aa944f1e4fc11a860ad8c42140f5fe9c1" kindref="member">getTopologies</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1a189866b9a7fc73f82e5501ff763e6462" kindref="member">addTopology</ref>(<ref refid="class_topology" kindref="compound">Topology</ref>*<sp/>topology);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1a557918daab492db33093a7095880d81b" kindref="member">setCurrentQuery</ref>(<ref refid="_topology_a_p_i_8h_1a19e4d17d4a63c0fe92152be5ddd28c59" kindref="member">QUERY</ref><sp/>currentQuery);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" kindref="member">createTopology</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1accd6c60f04a337b42ebf77ba6a57b567" kindref="member">executeQuery</ref>(<ref refid="struct_topology_a_p_i___param" kindref="compound">TopologyAPI_Param</ref>*<sp/>parameter);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1ac7081293a4067e209f7a8b14193a59be" kindref="member">help</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" kindref="member">readJson</ref>(std::string<sp/>filePath);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1a17bf994f20dbbecc4245f1576bada45a" kindref="member">writeJSON</ref>(std::string<sp/>filePath,<sp/>std::string<sp/>topologyID);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Topology*&gt;*<sp/><ref refid="class_topology_a_p_i_1a162e7d8dd704d8d24c31d0a2d909001f" kindref="member">queryTopologies</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_topology_a_p_i_1a44c3b67b59a2907cb5ad080c23bb27e6" kindref="member">deleteTopology</ref>(std::string<sp/>topologyID);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Device*&gt;*<sp/><ref refid="class_topology_a_p_i_1ae81b9033ff10bd079cf03bedcf5bf5ec" kindref="member">queryDevices</ref>(std::string<sp/>topologyID);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Device*&gt;*<sp/><ref refid="class_topology_a_p_i_1a1ac882ee0b95a3335fd387aa2cbf21f2" kindref="member">queryDevicesWithNetlistNode</ref>(std::string<sp/>topologyID,<sp/>std::string<sp/>node);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//#if<sp/>(LOGGING)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>void<sp/>setLogger(std::ofstream*<sp/>log);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_topology_a_p_i_1a452f3556536f19d8bac7c13cfb9f94ba" kindref="member">~TopologyAPI</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>!_TOPOLOGY_API_H</highlight></codeline>
+    </programlisting>
+    <location file="TopologyAPI.h"/>
+  </compounddef>
+</doxygen>

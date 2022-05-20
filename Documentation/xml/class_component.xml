@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_component" kind="class" language="C++" prot="public">
+    <compoundname>Component</compoundname>
+    <includes refid="_component_8h" local="no">Component.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_component_1a98f4fc628f5f4fcf0294097e7a26aa29" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Component::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>Component::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="12" column="13" bodyfile="Component.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_component_1afdcb5d4ea092afe60818fe3d116f8c43" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Component::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>Component::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="13" column="13" bodyfile="Component.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_component_1a515d40a58d9d3a0dadf6c05be82849da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_device" kindref="compound">Device</ref> *</type>
+        <definition>Device* Component::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <qualifiedname>Component::device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="14" column="8" bodyfile="Component.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_component_1a6137def62630759dea4f62c24d8a043b" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::string &gt;</type>
+        <definition>std::unordered_map&lt;std::string, std::string&gt; Component::netlist</definition>
+        <argsstring></argsstring>
+        <name>netlist</name>
+        <qualifiedname>Component::netlist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="15" column="20" bodyfile="Component.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_component_1af248b6d6a94ab02ba0dd569307f196af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Component::Component</definition>
+        <argsstring>(std::string type, std::string id)</argsstring>
+        <name>Component</name>
+        <qualifiedname>Component::Component</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="22" column="1" bodyfile="Component.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1ace85468791974a803cadee2a8527935e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Component::Component</definition>
+        <argsstring>(std::string id)</argsstring>
+        <name>Component</name>
+        <qualifiedname>Component::Component</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="23" column="1" bodyfile="Component.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a7d8b1a4517bda8a724e970cb4c02c049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Component::Component</definition>
+        <argsstring>(std::string type, std::string id, Device *device)</argsstring>
+        <name>Component</name>
+        <qualifiedname>Component::Component</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_device" kindref="compound">Device</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="24" column="1" bodyfile="Component.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a497d92159a582916055433d4ff8d12e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Component::Component</definition>
+        <argsstring>(std::string type, std::string id, Device *device, std::unordered_map&lt; std::string, std::string &gt; &amp;netlist)</argsstring>
+        <name>Component</name>
+        <qualifiedname>Component::Component</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_device" kindref="compound">Device</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>std::unordered_map&lt; std::string, std::string &gt; &amp;</type>
+          <declname>netlist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="25" column="1" bodyfile="Component.cpp" bodystart="18" bodyend="22"/>
+        <references refid="class_component_1a2f20b28e8cc2d7b4c2e35fbe9ab3aa8b" compoundref="_component_8cpp" startline="39" endline="45">set_netlist</references>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a87c5699f3e78b8bdfc417cf21b531136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Component::set_type</definition>
+        <argsstring>(std::string type)</argsstring>
+        <name>set_type</name>
+        <qualifiedname>Component::set_type</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="27" column="6" bodyfile="Component.cpp" bodystart="24" bodyend="27"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a62b31cff16dee4c243f2542a5217ae0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Component::set_id</definition>
+        <argsstring>(std::string id)</argsstring>
+        <name>set_id</name>
+        <qualifiedname>Component::set_id</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="28" column="6" bodyfile="Component.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a47ddd067e46adf515094ce11659d7369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Component::set_device</definition>
+        <argsstring>(Device *device)</argsstring>
+        <name>set_device</name>
+        <qualifiedname>Component::set_device</qualifiedname>
+        <param>
+          <type><ref refid="class_device" kindref="compound">Device</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="29" column="6" bodyfile="Component.cpp" bodystart="34" bodyend="37"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+        <referencedby refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" compoundref="_topology_a_p_i_8cpp" startline="155" endline="217">TopologyAPI::readJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a2f20b28e8cc2d7b4c2e35fbe9ab3aa8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Component::set_netlist</definition>
+        <argsstring>(std::unordered_map&lt; std::string, std::string &gt; &amp;netlist)</argsstring>
+        <name>set_netlist</name>
+        <qualifiedname>Component::set_netlist</qualifiedname>
+        <param>
+          <type>std::unordered_map&lt; std::string, std::string &gt; &amp;</type>
+          <declname>netlist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="30" column="6" bodyfile="Component.cpp" bodystart="39" bodyend="45"/>
+        <referencedby refid="class_component_1a497d92159a582916055433d4ff8d12e5" compoundref="_component_8cpp" startline="18" endline="22">Component</referencedby>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+        <referencedby refid="class_topology_a_p_i_1a76d238e8fa5ebeb5b47920b02ca3a39a" compoundref="_topology_a_p_i_8cpp" startline="155" endline="217">TopologyAPI::readJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a27ba2d3b49e398cacd7a06ca572de484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Component::get_type</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_type</name>
+        <qualifiedname>Component::get_type</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="32" column="13" bodyfile="Component.cpp" bodystart="47" bodyend="50"/>
+        <referencedby refid="class_topology_a_p_i_1ab3f3ec9c74734d2a765647f68fe3becf" compoundref="_topology_a_p_i_8cpp" startline="467" endline="591">TopologyAPI::createTopology</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1ab4f355e29e6a4eebb6b7a8356cee8666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Component::get_id</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_id</name>
+        <qualifiedname>Component::get_id</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="33" column="13" bodyfile="Component.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a133d6492827141cbcfc027d1bb10c3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_device" kindref="compound">Device</ref> *</type>
+        <definition>Device * Component::get_device</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_device</name>
+        <qualifiedname>Component::get_device</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="34" column="8" bodyfile="Component.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a25add17e5fa4dbf454bafc1aa32f5fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unordered_map&lt; std::string, std::string &gt; *</type>
+        <definition>std::unordered_map&lt; std::string, std::string &gt; * Component::get_netlist</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_netlist</name>
+        <qualifiedname>Component::get_netlist</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="35" column="20" bodyfile="Component.cpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1a27204028d45699ba533d06bffa8ef62d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Component::print</definition>
+        <argsstring>(void)</argsstring>
+        <name>print</name>
+        <qualifiedname>Component::print</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="41" column="6" bodyfile="Component.cpp" bodystart="74" bodyend="92"/>
+        <references refid="class_device_1a9e14e576fa18d8c913d974b5eb23268a" compoundref="_device_8cpp" startline="64" endline="71">Device::print</references>
+      </memberdef>
+      <memberdef kind="function" id="class_component_1aea82675a4fea6db680068f581ec060da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Component::~Component</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Component</name>
+        <qualifiedname>Component::~Component</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Component.h" line="42" column="1" bodyfile="Component.cpp" bodystart="94" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Component</label>
+        <link refid="class_component"/>
+      </node>
+    </collaborationgraph>
+    <location file="Component.h" line="9" column="1" bodyfile="Component.h" bodystart="10" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_component_1af248b6d6a94ab02ba0dd569307f196af" prot="public" virt="non-virtual"><scope>Component</scope><name>Component</name></member>
+      <member refid="class_component_1ace85468791974a803cadee2a8527935e" prot="public" virt="non-virtual"><scope>Component</scope><name>Component</name></member>
+      <member refid="class_component_1a7d8b1a4517bda8a724e970cb4c02c049" prot="public" virt="non-virtual"><scope>Component</scope><name>Component</name></member>
+      <member refid="class_component_1a497d92159a582916055433d4ff8d12e5" prot="public" virt="non-virtual"><scope>Component</scope><name>Component</name></member>
+      <member refid="class_component_1a515d40a58d9d3a0dadf6c05be82849da" prot="private" virt="non-virtual"><scope>Component</scope><name>device</name></member>
+      <member refid="class_component_1a133d6492827141cbcfc027d1bb10c3d7" prot="public" virt="non-virtual"><scope>Component</scope><name>get_device</name></member>
+      <member refid="class_component_1ab4f355e29e6a4eebb6b7a8356cee8666" prot="public" virt="non-virtual"><scope>Component</scope><name>get_id</name></member>
+      <member refid="class_component_1a25add17e5fa4dbf454bafc1aa32f5fd6" prot="public" virt="non-virtual"><scope>Component</scope><name>get_netlist</name></member>
+      <member refid="class_component_1a27ba2d3b49e398cacd7a06ca572de484" prot="public" virt="non-virtual"><scope>Component</scope><name>get_type</name></member>
+      <member refid="class_component_1afdcb5d4ea092afe60818fe3d116f8c43" prot="private" virt="non-virtual"><scope>Component</scope><name>id</name></member>
+      <member refid="class_component_1a6137def62630759dea4f62c24d8a043b" prot="private" virt="non-virtual"><scope>Component</scope><name>netlist</name></member>
+      <member refid="class_component_1a27204028d45699ba533d06bffa8ef62d" prot="public" virt="non-virtual"><scope>Component</scope><name>print</name></member>
+      <member refid="class_component_1a47ddd067e46adf515094ce11659d7369" prot="public" virt="non-virtual"><scope>Component</scope><name>set_device</name></member>
+      <member refid="class_component_1a62b31cff16dee4c243f2542a5217ae0c" prot="public" virt="non-virtual"><scope>Component</scope><name>set_id</name></member>
+      <member refid="class_component_1a2f20b28e8cc2d7b4c2e35fbe9ab3aa8b" prot="public" virt="non-virtual"><scope>Component</scope><name>set_netlist</name></member>
+      <member refid="class_component_1a87c5699f3e78b8bdfc417cf21b531136" prot="public" virt="non-virtual"><scope>Component</scope><name>set_type</name></member>
+      <member refid="class_component_1a98f4fc628f5f4fcf0294097e7a26aa29" prot="private" virt="non-virtual"><scope>Component</scope><name>type</name></member>
+      <member refid="class_component_1aea82675a4fea6db680068f581ec060da" prot="public" virt="non-virtual"><scope>Component</scope><name>~Component</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
