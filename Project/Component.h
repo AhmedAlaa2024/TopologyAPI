@@ -14,6 +14,10 @@ private:
 	Device* device;
 	std::unordered_map<std::string, std::string> netlist;
 
+#if (LOGGING)
+	std::ofstream* log;
+#endif
+
 public:
 	Component(std::string type, std::string id);
 	Component(std::string id);
@@ -29,6 +33,10 @@ public:
 	std::string get_id(void);
 	Device* get_device(void);
 	std::unordered_map<std::string, std::string>* get_netlist(void);
+
+#if (LOGGING)
+	void setLogger(std::ofstream* log);
+#endif
 
 	void print(void);
 	~Component(void);

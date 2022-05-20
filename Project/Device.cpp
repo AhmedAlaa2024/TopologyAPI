@@ -1,5 +1,6 @@
 #include "Device.h"
 
+
 Device::Device(std::string name):name(name), defaultValue(0.0f), minValue(0.0f), maxValue(0.0f)
 {
 	std::cout << "<Notification>: Device['" + this->name << "'] is being constructed!" << std::endl;
@@ -68,6 +69,13 @@ void Device::print(void)
 	std::cout << "'max': " << this->maxValue << "," << std::endl;
 	std::cout << "}," << std::endl;
 }
+
+#if (LOGGING)
+void Topology::setLogger(std::ofstream* log)
+{
+	this->log = log;
+}
+#endif
 
 Device::~Device(void)
 {

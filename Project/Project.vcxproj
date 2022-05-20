@@ -139,14 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="json.hpp" />
     <ClInclude Include="Resistor.h" />
     <ClInclude Include="TopologyAPI.h" />
     <ClInclude Include="App.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="Device.h" />
-    <ClInclude Include="json.hpp" />
     <ClInclude Include="Topology.h" />
-    <ClInclude Include="Transistor.h" />
+    <ClInclude Include="NMOS.h" />
+    <ClInclude Include="TopologyAPIUnitTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Resistor.cpp" />
@@ -155,7 +157,8 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="Topology.cpp" />
-    <ClCompile Include="Transistor.cpp" />
+    <ClCompile Include="NMOS.cpp" />
+    <ClCompile Include="TopologyAPIUnitTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

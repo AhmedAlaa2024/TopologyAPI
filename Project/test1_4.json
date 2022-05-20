@@ -1,0 +1,46 @@
+{
+    "id": "top4",
+    "components": [
+     {
+        "type": "resistor",
+        "id": "res2",
+        "resistance": {
+          "default": 100,
+          "min": 10,
+          "max": 1000
+        },
+        "netlist": {
+          "t1": "vdd",
+          "t2": "n1"
+        }
+     },
+     {
+        "type": "nmos",
+        "id": "m2",
+        "m(l)": {
+          "default": 1.5,
+          "min": 1,
+          "max": 2
+        },
+        "netlist": {
+          "drain": "n1",
+          "gate": "vin",
+          "source": "n2"
+        }
+     },
+     {
+        "type": "resistor",
+        "id": "res3",
+        "resistance": {
+          "default": 100,
+          "min": 10,
+          "max": 1000
+        },
+        "netlist": {
+          "t1": "n2",
+          "t2": "vss"
+        }
+     }
+    ]
+  }
+  

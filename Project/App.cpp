@@ -1,12 +1,23 @@
 #include "App.h"
+#include "defs.h"
+#include <csignal>
+
+static TopologyAPI* connection;
+static void signalHandler(int signum);
 
 int main(void)
 {
+	// register signal SIGINT and signal handler
+	signal(SIGINT, signalHandler);
+
+	std::ofstream* log = new std::ofstream("log/TopologyAPI_log.txt");
+
 	Guide();
 
 	/* To hold the number of query */
 	QUERY query = QUERY::HELP;		// It's set to help as a default
-	TopologyAPI *connection = new TopologyAPI("topology.json");
+	connection = new TopologyAPI("topology.json");
+	//connection->setLogger(log);
 	TopologyAPI_Param parametrs;
 
 	/* Super Loop */
@@ -17,10 +28,16 @@ int main(void)
 
 		if (exit_request)
 			break;
+
+		if (test_request)
+		{
+			unitTesting();
+			test_request = false;
+		}
 		
-		connection->set_currentQuery(query);
-		Query_preprocessing(query, parametrs);
-		connection->ExecuteQuery(ADDRESS(parametrs));
+		connection->setCurrentQuery(query);
+		queryPreprocessing(query, parametrs);
+		connection->executeQuery(ADDRESS(parametrs));
 	}
 
 	delete connection;
@@ -46,6 +63,7 @@ void Guide(void)
 	std::cout << "Enter 4 to Delete a given topology from memory!" << std::endl;
 	std::cout << "Enter 5 to Query about which devices are in a given topology!" << std::endl;
 	std::cout << "Enter 6 to Query about which devices are connected to a given netlist node in a given topology!" << std::endl;
+	std::cout << "Enter i to create new topology in the memory!" << std::endl;
 	std::cout << "Enter u to show you the menu of test cases!" << std::endl;
 	std::cout << "Enter q to exit!" << std::endl;
 	std::cout << "-----------------------------------------------------------------------------------------------------------------" << std::endl;
@@ -98,9 +116,13 @@ void ReadQuery(QUERY& query)
 			query = QUERY::IS_CONNECTED;
 			valid = true;
 			break;
-		case 'u':
-			query = QUERY::UNIT_TESTS;
+		case 'i':
+			query = QUERY::CREATE;
 			valid = true;
+			break;
+		case 'u':
+			valid = true;
+			test_request = true;
 			break;
 		case 'q':
 			valid = true;
@@ -116,8 +138,16 @@ void ReadQuery(QUERY& query)
 	}
 }
 
-void Query_preprocessing(QUERY query, TopologyAPI_Param& parameter)
+void queryPreprocessing(QUERY query, TopologyAPI_Param& parameter)
 {
+	/* To clean the old parameters */
+	parameter.filePath = "";
+	parameter.node = "";
+	parameter.topologyID = "";
+
+	std::vector<Topology*>* topologies = nullptr;
+	int i = 0;
+
 	switch (query) {
 	case QUERY::HELP:
 		/* TODO */
@@ -133,24 +163,110 @@ void Query_preprocessing(QUERY query, TopologyAPI_Param& parameter)
 		std::cout << "For example <topology.json> without brackets." << std::endl;
 		std::cout << "PATH: ";
 		std::cin >> parameter.filePath;
+		std::cout << "Please, Enter the ID of the topology which you want to be writte in json file! Make sure it's in memory!" << std::endl;
+		std::cout << "Topology ID: ";
+		std::cin >> parameter.topologyID;
 		break;
 	case QUERY::WHICH_TOPOLOGIES:
-		/* TODO */
+		/* Nothing */
 		break;
 	case QUERY::DELETE:
-		/* TODO */
+		topologies = connection->getTopologies();
+
+		if (topologies->size() == 0)
+		{
+			std::cout << "<Notification>: There is no topologies in the memory." << std::endl;
+		}
+		else
+		{
+			std::cout << "The following is ID list of the topologies in memory:" << std::endl;
+
+			for (auto topology : *topologies)
+				std::cout << "[" << i++ << "] - " << topology->getID() << std::endl;
+
+			std::cout << "Please, Enter the index of the query you want to delete: ";
+			int index;
+			std::cin >> index;
+
+			parameter.topologyID = topologies->at(index)->getID();
+		}
+
 		break;
 	case QUERY::WHICH_DEVICES:
-		/* TODO */
+		topologies = connection->getTopologies();
+
+		if (topologies->size() == 0)
+		{
+			std::cout << "<Notification>: There is no topologies in the memory." << std::endl;
+		}
+		else
+		{
+			std::cout << "The following is ID list of the topologies in memory:" << std::endl;
+
+			for (auto topology : *topologies)
+				std::cout << "[" << i++ << "] - " << topology->getID() << std::endl;
+
+			std::cout << "Please, Enter the index of the query you want to query about its devices: ";
+			int index;
+			std::cin >> index;
+
+			parameter.topologyID = topologies->at(index)->getID();
+		}
+
 		break;
 	case QUERY::IS_CONNECTED:
-		/* TODO */
+		topologies = connection->getTopologies();
+
+		if (topologies->size() == 0)
+		{
+			std::cout << "<Notification>: There is no topologies in the memory." << std::endl;
+		}
+		else
+		{
+			std::cout << "The following is ID list of the topologies in memory:" << std::endl;
+
+			for (auto topology : *topologies)
+				std::cout << "[" << i++ << "] - " << topology->getID() << std::endl;
+
+			std::cout << "Please, Enter the index of the query you want to query about its devices: ";
+			int index;
+			std::cin >> index;
+
+			parameter.topologyID = topologies->at(index)->getID();
+
+			std::cout << "Please, Enter the node's name: ";
+			std::cin >> parameter.node;
+		}
+
 		break;
-	case QUERY::UNIT_TESTS:
-		/* TODO */
+	case QUERY::CREATE:
+		/* Nothing TODO */
 		break;
 	default:
 		throw ("Unsupported Query: " + std::to_string((int)query));
 		break;
 	}
+}
+
+void signalHandler(int signum)
+{
+	std::cout << std::endl << "Interrupt signal (" << signum << ") received." << std::endl;
+
+	delete connection;
+
+	exit(EXIT_SUCCESS);
+}
+
+void unitTesting(void)
+{
+	std::ofstream* logForTesting = new std::ofstream("log/TopologyAPITest_log.txt");
+
+	TopologyAPIUnitTest topologyAPIUnitTest;
+	// topologyAPIUnitTest.setLogger(logForTesting);
+	topologyAPIUnitTest.TestQuery1();
+	topologyAPIUnitTest.TestQuery2();
+	topologyAPIUnitTest.TestQuery3();
+	topologyAPIUnitTest.TestQuery4();
+	topologyAPIUnitTest.TestQuery5();
+	topologyAPIUnitTest.TestQuery6();
 }

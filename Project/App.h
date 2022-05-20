@@ -3,7 +3,11 @@
 
 #include <iostream>
 #include <string>
+#include <math.h>
+#include <unordered_map>
+
 #include "TopologyAPI.h"
+#include "TopologyAPIUnitTest.h"
 
 #define ACCESS(X)	(*(X))
 #define ADDRESS(X)	(&(X))
@@ -24,11 +28,13 @@ void Guide(void);
 //	Blocking: No																								|
 //==============================================================================================================
 void ReadQuery(QUERY& query);
-void Query_preprocessing(QUERY query, TopologyAPI_Param& parameter);
+void queryPreprocessing(QUERY query, TopologyAPI_Param& parameter);
+void unitTesting(void);
 
 /*********************************************** Global Data ******************************************************/
 int queury_id = 0;
 bool exit_request = false;
+bool test_request = false;
 /******************************************************************************************************************/
 #endif // !_APP_H
 

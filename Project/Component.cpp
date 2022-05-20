@@ -40,7 +40,7 @@ void Component::set_netlist(std::unordered_map<std::string, std::string> &netlis
 {
 	for (auto node : netlist)
 	{
-		netlist.insert({ node.first, node.second });
+		this->netlist.insert({ node.first, node.second });
 	}
 }
 
@@ -63,6 +63,13 @@ std::unordered_map<std::string, std::string>* Component::get_netlist(void)
 {
 	return &(this->netlist);
 }
+
+#if (LOGGING)
+void Topology::setLogger(std::ofstream* log)
+{
+	this->log = log;
+}
+#endif
 
 void Component::print(void)
 {

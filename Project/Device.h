@@ -11,6 +11,10 @@ private:
 	float minValue;
 	float maxValue;
 
+#if (LOGGING)
+	std::ofstream* log;
+#endif
+
 public:
 	Device(std::string name);
 	Device(std::string name, float defaultValue);
@@ -28,6 +32,11 @@ public:
 	float get_maxValue(void);
 
 	virtual void print(void);
+
+#if (LOGGING)
+	void setLogger(std::ofstream* log);
+#endif
+
 	~Device(void);
 };
 
