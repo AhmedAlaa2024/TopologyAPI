@@ -31,7 +31,7 @@ void Component::set_id(std::string id)
 	this->id = id;
 }
 
-void Component::set_device(Device* device)
+void Component::set_device (Device* device)
 {
 	this->device = device;
 }

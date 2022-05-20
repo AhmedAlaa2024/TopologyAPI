@@ -10,13 +10,14 @@ int main(void)
 	// register signal SIGINT and signal handler
 	signal(SIGINT, signalHandler);
 
-	std::ofstream* log = new std::ofstream("log/TopologyAPI_log.txt");
+	const std::ofstream* log = new std::ofstream("log/TopologyAPI_log.txt");
 
 	Guide();
 
 	/* To hold the number of query */
 	QUERY query = QUERY::HELP;		// It's set to help as a default
 	connection = new TopologyAPI("topology.json");
+	
 	//connection->setLogger(log);
 	TopologyAPI_Param parametrs;
 
